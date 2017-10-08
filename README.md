@@ -15,3 +15,21 @@
 1. 添加用户功能，可以同步日历内容，但是原则是绝对不要求注册登陆才能使用app。
 2. 绝对不添加广告（完全不会考虑用这个赚钱，但是有了服务器之后会有一定支出，如果能被cover就好啦），但是如果真的完成了扩展1，可能会在某个不起眼的小地方添加一个“贡献”按钮。
 3. 添加一个商店，可以由用户添加各种各样（奇奇怪怪）的日历事项，比如NASA日历显示所有NASA发射的火箭时间之类。
+
+
+## chrome插件开发官方文档
+
+[https://developer.chrome.com/extensions/getstarted](https://developer.chrome.com/extensions/getstarted)
+
+
+步骤很简单：
+
+1、配置文件：manifest.json
+
+2、准备资源，包括：图标：icon.png，弹出的页面：popup.html，操作：popup.js
+
+3、加载插件：在chrome://extensions中选择"加载已解压的扩展程序"，选择当前文件夹即可
+
+效果如下：
+
+![d](http://images.cnblogs.com/cnblogs_com/puyangsky/1092407/o_WX20171008-144246@2x.png)
